@@ -1,4 +1,4 @@
-FROM --platform=${BUILDPLATFORM} nix-docker.registry.twcstorage.ru/ci/build/nodejs-build:22.20.0002 AS builder
+FROM --platform=${BUILDPLATFORM} nix-docker.registry.twcstorage.ru/ci/build/nodejs-build:22.20.0003 AS builder
 
 WORKDIR /src
 
