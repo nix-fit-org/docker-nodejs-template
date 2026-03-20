@@ -2,7 +2,7 @@ FROM --platform=${BUILDPLATFORM} nix-docker.registry.twcstorage.ru/ci/build/node
 
 WORKDIR /src
 
-COPY --chown=1000:1000 package.json package-lock.json .
+COPY --chown=1000:1000 package.json package-lock.json ./
 
 RUN npm ci
 
